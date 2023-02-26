@@ -1,0 +1,18 @@
+  [1m[35m (9.2ms)[0m  [1m[35mCREATE DATABASE `app_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE DATABASE `app_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+Started GET "/" for 172.19.0.1 at 2023-02-26 07:36:08 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 17.0ms | Allocations: 440)
+Completed 200 OK in 119ms (Views: 49.4ms | ActiveRecord: 0.0ms | Allocations: 3616)
+
+
+Started GET "/" for 172.20.0.1 at 2023-02-26 07:37:59 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.0ms | Allocations: 334)
+Completed 200 OK in 40ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 2482)
+
+
