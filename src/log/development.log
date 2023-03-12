@@ -16,3 +16,59 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 40ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 2482)
 
 
+Started GET "/" for 172.19.0.1 at 2023-03-12 06:24:14 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.7ms | Allocations: 334)
+Completed 200 OK in 52ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 2485)
+
+
+Started GET "/" for 172.21.0.1 at 2023-03-12 09:03:55 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 215)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /app/public/packs
+[Webpacker] Hash: 804a8059a304061a3e74
+Version: webpack 4.46.0
+Time: 13836ms
+Built at: 03/12/2023 9:04:19 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-271cf8931bb708d2d8bb.js    121 KiB  application  [emitted] [immutable]  application
+js/application-271cf8931bb708d2d8bb.js.map    133 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-271cf8931bb708d2d8bb.js js/application-271cf8931bb708d2d8bb.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 493 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 23674.6ms | Allocations: 15846)
+Completed 200 OK in 23733ms (Views: 23697.7ms | ActiveRecord: 0.0ms | Allocations: 18431)
+
+
+Started GET "/" for 172.21.0.1 at 2023-03-12 09:05:03 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 81.0ms | Allocations: 3564)
+Completed 200 OK in 82ms (Views: 81.7ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/" for 172.21.0.1 at 2023-03-12 09:05:18 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 83.3ms | Allocations: 3530)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms | Allocations: 3907)
+
+
